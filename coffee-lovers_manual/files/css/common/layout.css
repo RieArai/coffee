@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+@import "base.css";
+@import "lightbox.css";
+
+/*-------------------------------------------------------------------------
+	All
+/*-----------------------------------------------------------------------*/
+#all {
+	background: #fdf8e1;
+	font-size: 16px;
+	color: #481717;
+}
+
+	#all .wrap {
+		position:relative;
+		width:1200px;
+		margin:0 auto;
+	}
+
+	/*#all p {
+		color: #4d2b13;
+	}*/
+
+	#all .text,
+	#all .summary {
+		text-align:justify;
+		text-justify:inter-ideograph;
+	}
+
+header {
+	width: 100%;
+	background: #261507;
+}
+
+	header .wrap {
+		color: #fff;
+		padding: 50px 0 10px 0;
+	}
+
+	header h1 {
+		float: left;
+	}
+
+	header p {
+		float: right;
+		color: #fff;
+	}
+
+nav {
+	padding: 10px 0;
+	margin: 20px 0;
+}
+
+	nav ul{
+		width:830px;
+		margin: 0 auto;
+	}
+
+	nav li {
+		height: 64px;
+		display: inline-block;
+		font-size: 20px;
+		font-weight: bold;
+		text-align: left;
+		padding-top: 10px;
+		padding-left: 30px;
+		margin-right: 40px;
+		background-image: url("../../images/common/nav/off.png");
+		background-position: 0;
+		background-position-y: 0; 
+		background-repeat: no-repeat;
+	}
+
+	nav li:hover {
+		background-image: url("../../images/common/nav/on.png");
+	}
+
+#side {
+	width: 320px;
+	margin-right: 40px;
+	float: left;
+}
+
+#contents {
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+}
+
+	#contents .container {
+		padding: 40px;
+	}
+
+/*------------------------------------
+footer
+------------------------------------*/
+
+footer {
+	display: inline-block;
+	background: #261507;
+	height: 30px;
+	width: 100%;
+}
+
+
+
+
+
+
+

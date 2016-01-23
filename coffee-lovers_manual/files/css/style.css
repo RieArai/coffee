@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+@import "common/layout.css";
+
+
+#contents {
+	width: 100%;
+	float: left;
+	margin-bottom: 50px;
+	background: #fff;
+	padding: 40px 0;
+	border-radius: 8px;
+}
+
+	#contents h2.ttl {
+		width: 100%;
+		height: 70px;
+		background: #ffd600;
+		text-align: center;
+		padding-top: 30px;
+	}
+
+	.container .lead {
+		margin-bottom: 30px;
+	}
+
+		.container .lead span{
+			font-size: 130%;
+			font-weight: bold;
+		}
+
+/*------------------------------------
+form
+------------------------------------*/
+.form {
+	margin-bottom: 40px;
+}
+
+	.form li.textarea {
+		background: #fdf8e1;
+		border-radius: 10px;
+		padding: 40px;
+		margin-bottom: 40px;
+	}
+
+	.form li.textarea input {
+		background: #fdf8e1;
+		width: 100%;
+		border:0;
+		font-size: 23px;
+	}
+
+	.form .btn input {
+		background: #c00;
+		padding: 10px 30px;
+		margin-right: 20px;
+		color: #fff;
+		border: 0;
+		border-radius: 5px;
+		font-size: 18px;
+		float: left;
+	}
+
+	.form .btn input:hover {
+		background:#000;
+	}
+
+
+/*------------------------------------
+#rule
+------------------------------------*/
+#rule {
+}
+
+	.list {
+		margin-bottom: 20px;
+		font-size: 25px;
+		border-bottom: 1px solid #666;
+		padding-bottom: 20px;
+	}
+
+	.list .textarea {
+		width: 90%;
+		float: left;
+	}
+
+	#rule button {
+		float: right;
+		width: 40px;
+		height: 40px;
+		background: #c00;
+		border-radius: 40px;
+		text-align: center;
+		color: #fff;
+		border: 0;
+		cursor: pointer;
+	}
+
+	#rule button:hover {
+		background: #000;
+	}
+
+		.list dt{
+			margin-bottom: 30px;
+			border-bottom: 1px solid #666;
+		}
